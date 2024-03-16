@@ -3,6 +3,7 @@
 This module defines a function to_str that converts a float to its string representation.
 """
 
+
 def to_str(n: float) -> str:
     """
     Convert a float to its string representation.
@@ -14,6 +15,7 @@ def to_str(n: float) -> str:
         str: The string representation of the input float.
     """
     return str(n)
+
 
 if __name__ == "__main__":
     to_str = __import__('3-to_str').to_str
